@@ -1,4 +1,24 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Claude Code
+.claude.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
